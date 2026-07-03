@@ -30,7 +30,7 @@ tech:"React • Redux Toolkit • Node.js • Express.js • MongoDB • Tailwin
     image: prdDash,
     tech: "Javascript • Tailwind",
     live: "https://productivity-dashboard-33bz.onrender.com/",
-    github:"https://github.com/Sumi-ahir/PRODUCTIVITY.DASHBOARD"
+    github:"https://github.com/Sumi-ahir/PRODUCTIVITY_DASHBOARD"
   }
 ]
 const Projects = () => {
