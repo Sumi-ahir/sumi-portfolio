@@ -43,7 +43,7 @@ text-[#b0b2c3]
 flex flex-row md:flex-col md:w-11
 gap-3 md:gap-4
 items-center justify-center
-bg-white/10 shadow-md shadow-black/40
+bg-white/20 shadow-md shadow-black/40
 rounded-lg
 " style={{ padding: "10px 18px" }}>
 
@@ -137,7 +137,7 @@ text-[#b0b2c3]
 flex flex-row md:flex-col md:w-11
 gap-3 md:gap-4
 items-center justify-center
-bg-white/10 shadow-md shadow-black/40
+bg-white/20 shadow-md shadow-black/40
 rounded-lg
 " style={{ padding: "10px 25px" }}>
 

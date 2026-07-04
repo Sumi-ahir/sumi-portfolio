@@ -29,7 +29,7 @@ const Contact = () => {
         flex flex-row md:flex-col md:w-11
         gap-3 md:gap-4
         items-center justify-center
-        bg-white/10 shadow-md shadow-black/40
+        bg-white/20 shadow-md shadow-black/40
         rounded-lg
         " style={{padding:"10px 18px"}}>
         
@@ -123,7 +123,7 @@ const Contact = () => {
         flex flex-row md:flex-col md:w-11
         gap-3 md:gap-4
         items-center justify-center
-        bg-white/10 shadow-md shadow-black/40
+        bg-white/20 shadow-md shadow-black/40
         rounded-lg
         " style={{padding:"10px 25px"}}>
         
@@ -212,19 +212,19 @@ const Contact = () => {
             <div className='flex gap-3' style={{marginTop:"0.9rem"}}>
                 <a href="https://github.com/Sumi-ahir"
                 target='_blank'
-                 className="bg-white/10 rounded-lg hover:scale-110 hover:text-gray-300 transition" style={{padding:"6px"}}
+                 className="bg-white/20 rounded-lg hover:scale-110 hover:text-gray-300 transition" style={{padding:"6px"}}
                 >
                  <FaGithub className='text-2xl text-[#0e0e0ef1]'/>
                 </a>
                 <a  href="https://www.linkedin.com/in/sumita-nagotha-38b57b3b8/"
                 target='_blank'
-                 className="bg-white/10 rounded-lg  hover:scale-110 hover:text-gray-300 transition" style={{padding:"6px"}}
+                 className="bg-white/20 rounded-lg  hover:scale-110 hover:text-gray-300 transition" style={{padding:"6px"}}
                  >
                  <FaLinkedin className='text-2xl text-[#0e0e0ef1]' />
                 </a>
                 <a  target='_blank'
   href="https://mail.google.com/mail/?view=cm&fs=1&to=sumi.sparkal@gmail.com"
-  className="bg-white/10 rounded-lg hover:scale-110 transition"
+  className="bg-white/20 rounded-lg hover:scale-110 transition"
   style={{ padding: "6px" }}
 >
   <FaEnvelope className="text-2xl text-[#0e0e0ef1]" />
@@ -234,7 +234,7 @@ const Contact = () => {
             {/* RIGHT SIDE */}
             <form onSubmit={sendEmail}
             className='max-w-100  flex flex-col text-white gap-4
-            shadow-lg bg-white/10 backdrop-blur-lg
+            shadow-lg bg-white/20 backdrop-blur-lg
           border border-white/20
           rounded-xl' style={{padding:"2rem"}}>
                 <input name="name" type="text" placeholder='Your Name'
